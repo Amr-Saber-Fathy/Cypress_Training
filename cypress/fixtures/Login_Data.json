@@ -1,0 +1,8 @@
+[
+    { "email": "amr13ali@gmail.com", "password": "123456789", "loged" : 1, "expectedMessage": "Null" },
+    { "email": "amr15ali@gmail.com", "password": "123456789", "loged" : 0, "expectedMessage": "We could not find the email in the database" },
+    { "email": "amr13ali@gmail.com", "password": "1234567896", "loged" : 0, "expectedMessage": "The email and password combination is not correct, please fill a correct email and password" },
+    { "email": "amr13ali@gmail.com", "password": "123456", "loged" : 0, "expectedMessage": "Please Fill a correct Password" },
+    { "email": "amr13aligmail.com", "password": "123456789", "loged" : -1, "expectedMessage": "Please Insert a correct Email format" },
+    { "email": "  ", "password": "  ", "loged" : -1, "expectedMessage": "Please Insert a correct Email format" }
+]

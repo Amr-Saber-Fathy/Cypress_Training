@@ -1,0 +1,83 @@
+[
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr25saber@gmail.com",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : 1,
+        "expectedMessage": "Null" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr25saber@gmail.com",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : 0,
+        "expectedMessage": "Email is already exists in the Database" 
+    },
+    { 
+        "firstName": " ",
+        "lastName": "Ali",
+        "email": "amr20ali@gmail.com",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : -1,
+        "expectedMessage": "First Name is required, and it should be more than 3 characters" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": " ",
+        "email": "amr20ali@gmail.com",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : -1,
+        "expectedMessage": "Last Name is required, and it should be more than 3 characters" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr20aligmail.com",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : -1,
+        "expectedMessage": "Please Insert a correct Email format" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": " ",
+        "password": "123456789",
+        "confirmPassword": "123456789",
+        "loged" : -1,
+        "expectedMessage": "Please Insert a correct Email format" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr20ali@gmail.com",
+        "password": " ",
+        "confirmPassword": "123456789",
+        "loged" : -1,
+        "expectedMessage": "Password must be Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr20ali@gmail.com",
+        "password": "1234567",
+        "confirmPassword": "1234567",
+        "loged" : -1,
+        "expectedMessage": "Password must be Minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character" 
+    },
+    { 
+        "firstName": "Amr",
+        "lastName": "Ali",
+        "email": "amr20ali@gmail.com",
+        "password": "123456789",
+        "confirmPassword": "1234567",
+        "loged" : -1,
+        "expectedMessage": "Second password does not match the first Password" 
+    }
+]
