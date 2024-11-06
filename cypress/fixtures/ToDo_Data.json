@@ -1,0 +1,11 @@
+[
+    {
+        "itemName": "Learning Cypress", "accepted": true, "expectedMessage": "Null"
+    },
+    {
+        "itemName": " ", "accepted": false, "expectedMessage": "New todo is required, and it should be more than 3 characters"
+    },
+    {
+        "itemName": "Le", "accepted": false, "expectedMessage": "New todo is required, and it should be more than 3 characters"
+    }
+]
